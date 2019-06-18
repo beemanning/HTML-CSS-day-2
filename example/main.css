@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    height: 80px;
+    background-color: peachpuff;
+}
+
+header > div {
+    max-width: 1000px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(150, 90, 1);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 60;
+}
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+    margin: 20px;
+
+}
+
+.content > div {
+    width: 175px;
+}
